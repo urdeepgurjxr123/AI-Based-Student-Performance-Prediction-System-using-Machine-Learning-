@@ -1,0 +1,72 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/* Center layout */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card */
+.card {
+    background: rgba(255, 255, 255, 0.12);
+    padding: 40px;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+}
+
+/* Heading */
+.card h1 {
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+/* Button */
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    background: #ff7eb3;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff4e91;
+    transform: scale(1.05);
+}
+
+/* Links */
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Graphs */
+img {
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+}

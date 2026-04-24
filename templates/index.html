@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predictor</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!-- Correct CSS -->
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <div class="card">
+
+        <div style="text-align:right;">
+            <a href="/logout">🚪 Logout</a>
+        </div>
+
+        <h1>🎓 Student Performance Predictor</h1>
+
+        <form action="/predict" method="post">
+            <input type="number" name="studytime" placeholder="📚 Study Time (1-4)" required>
+            <input type="number" name="failures" placeholder="❌ Failures (0-3)" required>
+            <input type="number" name="absences" placeholder="📅 Absences" required>
+
+            <button type="submit">🚀 Predict</button>
+        </form>
+
+    </div>
+</div>
+
+</body>
+</html>
